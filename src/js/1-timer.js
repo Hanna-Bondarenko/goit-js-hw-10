@@ -44,6 +44,7 @@ function startTimer() {
   startButton.disabled = true;
 
   intervalId = setInterval(updateTimer, 1000);
+  return;
 }
 
 function updateTimer() {
